@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.Test.Code.A" project="ProgramCS151" 
+    file="/ProgramCS151/src/com/Test/Code/TestInheritance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="123" x="531" y="199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.Test.Code.TestFinalExam9" project="ProgramCS151" 
+    file="/ProgramCS151/src/com/Test/Code/TestFinalExam9.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="163" x="694" y="199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.Test.Code.TestInheritance" project="ProgramCS151" 
+    file="/ProgramCS151/src/com/Test/Code/TestInheritance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="159" x="897" y="199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.Test.Code.ClassB" project="ProgramCS151" 
+    file="/ProgramCS151/src/com/Test/Code/TestFinalExam9.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="142" x="1096" y="395"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.Test.Code.TestGenericClassMethod" project="ProgramCS151" 
+    file="/ProgramCS151/src/com/Test/Code/TestGenericClassMethod.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="243" x="1278" y="199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.Test.Code.ClassA" project="ProgramCS151" 
+    file="/ProgramCS151/src/com/Test/Code/TestFinalExam9.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="142" x="1096" y="199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.Test.Code.B" project="ProgramCS151" 
+    file="/ProgramCS151/src/com/Test/Code/TestInheritance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="123" x="531" y="395"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.Test.Code.C" project="ProgramCS151" 
+    file="/ProgramCS151/src/com/Test/Code/TestInheritance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="142" x="531" y="571"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
